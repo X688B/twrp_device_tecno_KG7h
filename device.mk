@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+#fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.1-mtkimpl.recovery \
+    android.hardware.boot@1.1-mtkimpl
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
